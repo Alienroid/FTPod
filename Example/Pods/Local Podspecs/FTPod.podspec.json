@@ -1,0 +1,22 @@
+{
+  "name": "FTPod",
+  "version": "0.1.0",
+  "summary": "A short description of FTPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alienroid/FTPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alienroid": "alienroid@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alienroid/FTPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FTPod/Classes/**/*"
+}

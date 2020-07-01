@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01596646DAEEC28D502CC707D96BA93D /* Pods-FTPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F99682183E7644E5529B45DDC3D7313 /* Pods-FTPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039EB051B5AF784FBA1EBB5F9FA26720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1AC99175428B698CACAB07BE12D8B78C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		31CEB40113870496AB788F134B2D73D4 /* Pods-FTPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83037FAAD6F44108FA89B8C7FA4C2BE9 /* Pods-FTPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36ADD9631C9650C249F090B28EBA1615 /* Pods-FTPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E553D51DFB1D09BAEB896D54D6ADA24E /* Pods-FTPod_Tests-dummy.m */; };
+		52A47EF67A2DF50ADE6360598D68A86B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5B438B53492583502E81D15D6202BDB6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298475B545FF624F11BE3ACCFE9BE9D /* ReplaceMe.swift */; };
+		6011DE3F80D8666C97EDEE8AF62B3DB7 /* FTPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CD348D845052D0D1F90717A3B86DE /* FTPod-dummy.m */; };
+		A84F8AA2D7602B26329318CDAEA7611E /* Pods-FTPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F13BD3C62C01AA915557913D78B6B /* Pods-FTPod_Example-dummy.m */; };
+		B22DD258A8D2C7DF51A643A1A8E03F79 /* FTPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 355FABCA44F2BA4604DE68814726ADE5 /* FTPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524113E58556419FD19616C7FFEFC318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC047EF93382E774BDB41DE229DB1E06;
+			remoteInfo = "Pods-FTPod_Example";
+		};
+		EEA20C4043E162984BF7F74E9BAE3F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554A82C938DB878034DEEC97173E6BF;
+			remoteInfo = FTPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034EF8326F7A342FBA2E95A42E39E6EE /* Pods-FTPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTPod_Tests.modulemap"; sourceTree = "<group>"; };
+		0E30EDF18670C66F9B149A8AC43B62AA /* Pods_FTPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTPod_Example.framework; path = "Pods-FTPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7EB2598964A9EDFEE488CC6F4172F5 /* FTPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTPod.debug.xcconfig; sourceTree = "<group>"; };
+		275FB9BEEA81D49E1D2FB51CBD8339D3 /* Pods-FTPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F99682183E7644E5529B45DDC3D7313 /* Pods-FTPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		340B6572B3CA41971066CAC9F1929242 /* Pods-FTPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPod_Example-Info.plist"; sourceTree = "<group>"; };
+		355FABCA44F2BA4604DE68814726ADE5 /* FTPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTPod-umbrella.h"; sourceTree = "<group>"; };
+		53860E4A1F20D939D9DB4085F936557D /* FTPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTPod-Info.plist"; sourceTree = "<group>"; };
+		59AEB6BE880628D6C767571E834E515D /* FTPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTPod.framework; path = FTPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5BC68B938100D6C2FF92E852EA8117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5C45FB36AEDBC481B987B2BA6C46C650 /* Pods-FTPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64556C50991A6CD49A1A3E7739A0AE39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		66A71C1FD6A05B69B6DE1B851A66E24B /* Pods_FTPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTPod_Tests.framework; path = "Pods-FTPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67851592D84780702D33E9B729C6FBED /* Pods-FTPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTPod_Example.modulemap"; sourceTree = "<group>"; };
+		713FAF85C66942BA14782025ABAD329B /* Pods-FTPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		720F13BD3C62C01AA915557913D78B6B /* Pods-FTPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTPod_Example-dummy.m"; sourceTree = "<group>"; };
+		72399D4148EC25D79A292F82880F285A /* Pods-FTPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		780C38FFAEB9419021F726C112DABDD6 /* FTPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTPod-prefix.pch"; sourceTree = "<group>"; };
+		820647B0C8DE3FADA05AAC1706B1A1AE /* Pods-FTPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		8298475B545FF624F11BE3ACCFE9BE9D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FTPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		83037FAAD6F44108FA89B8C7FA4C2BE9 /* Pods-FTPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		901AD7149FBB1483814A98577FFB4E13 /* FTPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTPod.release.xcconfig; sourceTree = "<group>"; };
+		92156BF0DB1119D49C039541EA855B88 /* Pods-FTPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4CD348D845052D0D1F90717A3B86DE /* FTPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTPod-dummy.m"; sourceTree = "<group>"; };
+		ADFE02876BD1117B5800FFE49DEE12ED /* FTPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B154DEA7B9F0C5E376385AE03BBCDCFA /* Pods-FTPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7715BB3C59DEC68840D5FF55B8F5C31 /* Pods-FTPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB2407DC37BF077CDF759E86867A2EE4 /* Pods-FTPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E553D51DFB1D09BAEB896D54D6ADA24E /* Pods-FTPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		E877BD35E0C5BC062FC342E0BC3FC1E5 /* Pods-FTPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC3E0717E901769D73A33D373336F797 /* FTPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTPod.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1611279B6E7AD7B558C7A6345F380A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC99175428B698CACAB07BE12D8B78C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB4F8D75F024ED6B2003CF6BB2928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A47EF67A2DF50ADE6360598D68A86B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84251A5B7059E3C57A536D6587EE8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039EB051B5AF784FBA1EBB5F9FA26720 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B734A010F3E4377A964261CED12CD21 /* FTPod */ = {
+			isa = PBXGroup;
+			children = (
+				8298475B545FF624F11BE3ACCFE9BE9D /* ReplaceMe.swift */,
+				9D684AE7790AB9B9995498E6BDDB57B8 /* Pod */,
+				96FD3199E94CBCFFFE9090683ECEE753 /* Support Files */,
+			);
+			name = FTPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4C37BFED7819066A87D7151DCAAF9080 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B10A222D1D1DBB93779C827C08ABB59 /* Pods-FTPod_Example */,
+				93B2FC165B33B926B037A6E7164DD914 /* Pods-FTPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9063B2D0D707A571A7F437D4ADE110EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B734A010F3E4377A964261CED12CD21 /* FTPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		93B2FC165B33B926B037A6E7164DD914 /* Pods-FTPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				034EF8326F7A342FBA2E95A42E39E6EE /* Pods-FTPod_Tests.modulemap */,
+				B7715BB3C59DEC68840D5FF55B8F5C31 /* Pods-FTPod_Tests-acknowledgements.markdown */,
+				E877BD35E0C5BC062FC342E0BC3FC1E5 /* Pods-FTPod_Tests-acknowledgements.plist */,
+				E553D51DFB1D09BAEB896D54D6ADA24E /* Pods-FTPod_Tests-dummy.m */,
+				820647B0C8DE3FADA05AAC1706B1A1AE /* Pods-FTPod_Tests-Info.plist */,
+				2F99682183E7644E5529B45DDC3D7313 /* Pods-FTPod_Tests-umbrella.h */,
+				713FAF85C66942BA14782025ABAD329B /* Pods-FTPod_Tests.debug.xcconfig */,
+				B154DEA7B9F0C5E376385AE03BBCDCFA /* Pods-FTPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-FTPod_Tests";
+			path = "Target Support Files/Pods-FTPod_Tests";
+			sourceTree = "<group>";
+		};
+		96FD3199E94CBCFFFE9090683ECEE753 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E0717E901769D73A33D373336F797 /* FTPod.modulemap */,
+				9F4CD348D845052D0D1F90717A3B86DE /* FTPod-dummy.m */,
+				53860E4A1F20D939D9DB4085F936557D /* FTPod-Info.plist */,
+				780C38FFAEB9419021F726C112DABDD6 /* FTPod-prefix.pch */,
+				355FABCA44F2BA4604DE68814726ADE5 /* FTPod-umbrella.h */,
+				0F7EB2598964A9EDFEE488CC6F4172F5 /* FTPod.debug.xcconfig */,
+				901AD7149FBB1483814A98577FFB4E13 /* FTPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FTPod";
+			sourceTree = "<group>";
+		};
+		9B10A222D1D1DBB93779C827C08ABB59 /* Pods-FTPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				67851592D84780702D33E9B729C6FBED /* Pods-FTPod_Example.modulemap */,
+				5C45FB36AEDBC481B987B2BA6C46C650 /* Pods-FTPod_Example-acknowledgements.markdown */,
+				72399D4148EC25D79A292F82880F285A /* Pods-FTPod_Example-acknowledgements.plist */,
+				720F13BD3C62C01AA915557913D78B6B /* Pods-FTPod_Example-dummy.m */,
+				BB2407DC37BF077CDF759E86867A2EE4 /* Pods-FTPod_Example-frameworks.sh */,
+				340B6572B3CA41971066CAC9F1929242 /* Pods-FTPod_Example-Info.plist */,
+				83037FAAD6F44108FA89B8C7FA4C2BE9 /* Pods-FTPod_Example-umbrella.h */,
+				92156BF0DB1119D49C039541EA855B88 /* Pods-FTPod_Example.debug.xcconfig */,
+				275FB9BEEA81D49E1D2FB51CBD8339D3 /* Pods-FTPod_Example.release.xcconfig */,
+			);
+			name = "Pods-FTPod_Example";
+			path = "Target Support Files/Pods-FTPod_Example";
+			sourceTree = "<group>";
+		};
+		9D684AE7790AB9B9995498E6BDDB57B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ADFE02876BD1117B5800FFE49DEE12ED /* FTPod.podspec */,
+				64556C50991A6CD49A1A3E7739A0AE39 /* LICENSE */,
+				5A5BC68B938100D6C2FF92E852EA8117 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB9957903813D79BD0101F4C802D896F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59AEB6BE880628D6C767571E834E515D /* FTPod.framework */,
+				0E30EDF18670C66F9B149A8AC43B62AA /* Pods_FTPod_Example.framework */,
+				66A71C1FD6A05B69B6DE1B851A66E24B /* Pods_FTPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9063B2D0D707A571A7F437D4ADE110EC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CB9957903813D79BD0101F4C802D896F /* Products */,
+				4C37BFED7819066A87D7151DCAAF9080 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2848E349616784D047B104CB54BF4C87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01596646DAEEC28D502CC707D96BA93D /* Pods-FTPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC3F11ADC8FE876FDABBB2449D3DB3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CEB40113870496AB788F134B2D73D4 /* Pods-FTPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74638FE2C2BDCB07D10B370299E1AAFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22DD258A8D2C7DF51A643A1A8E03F79 /* FTPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8554A82C938DB878034DEEC97173E6BF /* FTPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48FC0E03D868185853DFAB3F50ABCBF /* Build configuration list for PBXNativeTarget "FTPod" */;
+			buildPhases = (
+				74638FE2C2BDCB07D10B370299E1AAFF /* Headers */,
+				A33F896CE198FF44F2DF057F1311E034 /* Sources */,
+				39DB4F8D75F024ED6B2003CF6BB2928D /* Frameworks */,
+				D9F65916CAF36CB132EA698D52F1302A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPod;
+			productName = FTPod;
+			productReference = 59AEB6BE880628D6C767571E834E515D /* FTPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		857BB295D102D3710EC0ADE251D0A3DB /* Pods-FTPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5B669B556AC2875882D50AF635ECFD /* Build configuration list for PBXNativeTarget "Pods-FTPod_Tests" */;
+			buildPhases = (
+				2848E349616784D047B104CB54BF4C87 /* Headers */,
+				9CDB392432DA77BD8E794BDD2CF3C7F1 /* Sources */,
+				1611279B6E7AD7B558C7A6345F380A66 /* Frameworks */,
+				99D881047B3C9C72037491A441393B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFF5FB1F43509A9241BE15AC4E8ACB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-FTPod_Tests";
+			productName = "Pods-FTPod_Tests";
+			productReference = 66A71C1FD6A05B69B6DE1B851A66E24B /* Pods_FTPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC047EF93382E774BDB41DE229DB1E06 /* Pods-FTPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76457DA7F100261D36F7496EA576C62F /* Build configuration list for PBXNativeTarget "Pods-FTPod_Example" */;
+			buildPhases = (
+				3BC3F11ADC8FE876FDABBB2449D3DB3C /* Headers */,
+				B9555C8C567373C2CD4016238DB7F1D8 /* Sources */,
+				B84251A5B7059E3C57A536D6587EE8DE /* Frameworks */,
+				9EAA38CDACF7389452651C4BBB2CA7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B368DE165E4AB6022A313A60EC33449F /* PBXTargetDependency */,
+			);
+			name = "Pods-FTPod_Example";
+			productName = "Pods-FTPod_Example";
+			productReference = 0E30EDF18670C66F9B149A8AC43B62AA /* Pods_FTPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CB9957903813D79BD0101F4C802D896F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8554A82C938DB878034DEEC97173E6BF /* FTPod */,
+				CC047EF93382E774BDB41DE229DB1E06 /* Pods-FTPod_Example */,
+				857BB295D102D3710EC0ADE251D0A3DB /* Pods-FTPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D881047B3C9C72037491A441393B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAA38CDACF7389452651C4BBB2CA7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F65916CAF36CB132EA698D52F1302A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CDB392432DA77BD8E794BDD2CF3C7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ADD9631C9650C249F090B28EBA1615 /* Pods-FTPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33F896CE198FF44F2DF057F1311E034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6011DE3F80D8666C97EDEE8AF62B3DB7 /* FTPod-dummy.m in Sources */,
+				5B438B53492583502E81D15D6202BDB6 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9555C8C567373C2CD4016238DB7F1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84F8AA2D7602B26329318CDAEA7611E /* Pods-FTPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFF5FB1F43509A9241BE15AC4E8ACB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FTPod_Example";
+			target = CC047EF93382E774BDB41DE229DB1E06 /* Pods-FTPod_Example */;
+			targetProxy = 524113E58556419FD19616C7FFEFC318 /* PBXContainerItemProxy */;
+		};
+		B368DE165E4AB6022A313A60EC33449F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTPod;
+			target = 8554A82C938DB878034DEEC97173E6BF /* FTPod */;
+			targetProxy = EEA20C4043E162984BF7F74E9BAE3F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		440F200C0CA74C026D224164BC4A15B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275FB9BEEA81D49E1D2FB51CBD8339D3 /* Pods-FTPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTPod_Example/Pods-FTPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTPod_Example/Pods-FTPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4515260E4B9BECDB5FB092988305CB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7EB2598964A9EDFEE488CC6F4172F5 /* FTPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTPod/FTPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTPod/FTPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTPod/FTPod.modulemap";
+				PRODUCT_MODULE_NAME = FTPod;
+				PRODUCT_NAME = FTPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56053EDFFFC1CAAFFB3A6AF7659FCBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92156BF0DB1119D49C039541EA855B88 /* Pods-FTPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTPod_Example/Pods-FTPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTPod_Example/Pods-FTPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB8ED8B0C0F589AB9E22F9140FF236F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B154DEA7B9F0C5E376385AE03BBCDCFA /* Pods-FTPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTPod_Tests/Pods-FTPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTPod_Tests/Pods-FTPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC67BC099D18B156C7FEDFAE624BF0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713FAF85C66942BA14782025ABAD329B /* Pods-FTPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTPod_Tests/Pods-FTPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTPod_Tests/Pods-FTPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2F1F362B44BA986F3EEF1826048C3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901AD7149FBB1483814A98577FFB4E13 /* FTPod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTPod/FTPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTPod/FTPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTPod/FTPod.modulemap";
+				PRODUCT_MODULE_NAME = FTPod;
+				PRODUCT_NAME = FTPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76457DA7F100261D36F7496EA576C62F /* Build configuration list for PBXNativeTarget "Pods-FTPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56053EDFFFC1CAAFFB3A6AF7659FCBE2 /* Debug */,
+				440F200C0CA74C026D224164BC4A15B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48FC0E03D868185853DFAB3F50ABCBF /* Build configuration list for PBXNativeTarget "FTPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4515260E4B9BECDB5FB092988305CB4C /* Debug */,
+				F2F1F362B44BA986F3EEF1826048C3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5B669B556AC2875882D50AF635ECFD /* Build configuration list for PBXNativeTarget "Pods-FTPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC67BC099D18B156C7FEDFAE624BF0EC /* Debug */,
+				AB8ED8B0C0F589AB9E22F9140FF236F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

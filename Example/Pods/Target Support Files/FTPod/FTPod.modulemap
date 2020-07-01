@@ -1,0 +1,6 @@
+framework module FTPod {
+  umbrella header "FTPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
