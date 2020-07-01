@@ -17,6 +17,9 @@
 		6011DE3F80D8666C97EDEE8AF62B3DB7 /* FTPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CD348D845052D0D1F90717A3B86DE /* FTPod-dummy.m */; };
 		A84F8AA2D7602B26329318CDAEA7611E /* Pods-FTPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 720F13BD3C62C01AA915557913D78B6B /* Pods-FTPod_Example-dummy.m */; };
 		B22DD258A8D2C7DF51A643A1A8E03F79 /* FTPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 355FABCA44F2BA4604DE68814726ADE5 /* FTPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6611CA324AD3DEB002190AB /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6611CA224AD3DEB002190AB /* BounceButton.swift */; };
+		E6611CA424AD3DEB002190AB /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6611CA224AD3DEB002190AB /* BounceButton.swift */; };
+		E6611CA624AD40F4002190AB /* SMathLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6611CA524AD40F4002190AB /* SMathLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		034EF8326F7A342FBA2E95A42E39E6EE /* Pods-FTPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTPod_Tests.modulemap"; sourceTree = "<group>"; };
-		0E30EDF18670C66F9B149A8AC43B62AA /* Pods_FTPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTPod_Example.framework; path = "Pods-FTPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30EDF18670C66F9B149A8AC43B62AA /* Pods_FTPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7EB2598964A9EDFEE488CC6F4172F5 /* FTPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTPod.debug.xcconfig; sourceTree = "<group>"; };
 		275FB9BEEA81D49E1D2FB51CBD8339D3 /* Pods-FTPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2F99682183E7644E5529B45DDC3D7313 /* Pods-FTPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTPod_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -46,11 +49,11 @@
 		340B6572B3CA41971066CAC9F1929242 /* Pods-FTPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPod_Example-Info.plist"; sourceTree = "<group>"; };
 		355FABCA44F2BA4604DE68814726ADE5 /* FTPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTPod-umbrella.h"; sourceTree = "<group>"; };
 		53860E4A1F20D939D9DB4085F936557D /* FTPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTPod-Info.plist"; sourceTree = "<group>"; };
-		59AEB6BE880628D6C767571E834E515D /* FTPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTPod.framework; path = FTPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A5BC68B938100D6C2FF92E852EA8117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59AEB6BE880628D6C767571E834E515D /* FTPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5BC68B938100D6C2FF92E852EA8117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5C45FB36AEDBC481B987B2BA6C46C650 /* Pods-FTPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64556C50991A6CD49A1A3E7739A0AE39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		66A71C1FD6A05B69B6DE1B851A66E24B /* Pods_FTPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTPod_Tests.framework; path = "Pods-FTPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64556C50991A6CD49A1A3E7739A0AE39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		66A71C1FD6A05B69B6DE1B851A66E24B /* Pods_FTPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67851592D84780702D33E9B729C6FBED /* Pods-FTPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTPod_Example.modulemap"; sourceTree = "<group>"; };
 		713FAF85C66942BA14782025ABAD329B /* Pods-FTPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		720F13BD3C62C01AA915557913D78B6B /* Pods-FTPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTPod_Example-dummy.m"; sourceTree = "<group>"; };
@@ -61,13 +64,15 @@
 		83037FAAD6F44108FA89B8C7FA4C2BE9 /* Pods-FTPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		901AD7149FBB1483814A98577FFB4E13 /* FTPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTPod.release.xcconfig; sourceTree = "<group>"; };
 		92156BF0DB1119D49C039541EA855B88 /* Pods-FTPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F4CD348D845052D0D1F90717A3B86DE /* FTPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTPod-dummy.m"; sourceTree = "<group>"; };
-		ADFE02876BD1117B5800FFE49DEE12ED /* FTPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADFE02876BD1117B5800FFE49DEE12ED /* FTPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FTPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B154DEA7B9F0C5E376385AE03BBCDCFA /* Pods-FTPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B7715BB3C59DEC68840D5FF55B8F5C31 /* Pods-FTPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BB2407DC37BF077CDF759E86867A2EE4 /* Pods-FTPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E553D51DFB1D09BAEB896D54D6ADA24E /* Pods-FTPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		E6611CA224AD3DEB002190AB /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		E6611CA524AD40F4002190AB /* SMathLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMathLib.swift; sourceTree = "<group>"; };
 		E877BD35E0C5BC062FC342E0BC3FC1E5 /* Pods-FTPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EC3E0717E901769D73A33D373336F797 /* FTPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTPod.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +187,7 @@
 				ADFE02876BD1117B5800FFE49DEE12ED /* FTPod.podspec */,
 				64556C50991A6CD49A1A3E7739A0AE39 /* LICENSE */,
 				5A5BC68B938100D6C2FF92E852EA8117 /* README.md */,
+				E6611C9E24AD3CB7002190AB /* Classes */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -221,6 +227,15 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6611C9E24AD3CB7002190AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E6611CA224AD3DEB002190AB /* BounceButton.swift */,
+				E6611CA524AD40F4002190AB /* SMathLib.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +332,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8554A82C938DB878034DEEC97173E6BF = {
+						LastSwiftMigration = 1130;
+					};
+					CC047EF93382E774BDB41DE229DB1E06 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +399,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6011DE3F80D8666C97EDEE8AF62B3DB7 /* FTPod-dummy.m in Sources */,
+				E6611CA624AD40F4002190AB /* SMathLib.swift in Sources */,
 				5B438B53492583502E81D15D6202BDB6 /* ReplaceMe.swift in Sources */,
+				E6611CA324AD3DEB002190AB /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84F8AA2D7602B26329318CDAEA7611E /* Pods-FTPod_Example-dummy.m in Sources */,
+				E6611CA424AD3DEB002190AB /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +437,7 @@
 			baseConfigurationReference = 275FB9BEEA81D49E1D2FB51CBD8339D3 /* Pods-FTPod_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -433,6 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -464,7 +492,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -476,6 +504,7 @@
 			baseConfigurationReference = 92156BF0DB1119D49C039541EA855B88 /* Pods-FTPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -498,6 +527,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -591,8 +622,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -719,7 +749,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
